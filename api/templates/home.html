@@ -6,32 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>TRTRTRR</h1>
-    <form id="data_set" action="https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5" method="post">
-        <input type="hidden" name="MerchantID" value="2000132" />
-        <input type="hidden" name="MerchantTradeNo" value="NO20231030151218" />
-        <input type="hidden" name="MerchantTradeDate" value="2023/10/30 15:12:18" />
-        <input type="hidden" name="PaymentType" value="aio" />
-        <input type="hidden" name="TotalAmount" value="2000" />
-        <input type="hidden" name="TradeDesc" value="訂單測試" />
-        <input type="hidden" name="ItemName" value="商品1  x5 個#商品2 x100 個" />
-        <input type="hidden" name="ReturnURL" value="https://www.ecpay.com.tw/return_url.php" />
-        <input type="hidden" name="ChoosePayment" value="ALL" />
-        <input type="hidden" name="ClientBackURL" value="https://www.ecpay.com.tw/client_back_url.php" />
-        <input type="hidden" name="ItemURL" value="https://www.ecpay.com.tw/item_url.php" />
-        <input type="hidden" name="Remark" value="交易備註" />
-        <input type="hidden" name="OrderResultURL" value="https://www.ecpay.com.tw/order_result_url.php" />
-        <input type="hidden" name="NeedExtraPaidInfo" value="Y" />
-        <input type="hidden" name="InvoiceMark" value="N" />
-        <input type="hidden" name="EncryptType" value="1" />
-        <input type="hidden" name="ExpireDate" value="7" />
-        <input type="hidden" name="PaymentInfoURL" value="https://www.ecpay.com.tw/payment_info_url.php" />
-        <input type="hidden" name="StoreExpireDate" value="15" />
-        <input type="hidden" name="BindingCard" value="0" />
-        <input type="hidden" name="Redeem" value="N" />
-        <input type="hidden" name="UnionPay" value="0" />
-        <input type="hidden" name="CheckMacValue" value="D4F159736A373A9399BD8376FC94A484180DE7FEC8ED83C0D406BE7A312733AC" />
-        <!-- <script type="text/javascript">document.getElementById("data_set").submit();</script> -->
-    </form>
+    <p>
+        <a href="products">products</a>
+        <a href="clear">cleardata</a>
+        <a href="createorder">createorder</a>
+    </p>
 </body>
 </html>
+
+<style>
+    a {
+        margin: 100px 200px 100px 100px;
+        background-color: #ddd;
+        padding: 20px ;
+    }
+</style>
